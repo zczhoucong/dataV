@@ -1,0 +1,88 @@
+.z-index {
+    position: absolute !important;
+    z-index: 100001 !important;
+}
+
+.drag-tool {
+    transform: scale(1, 1);
+    z-index: 100000 !important;
+    position: absolute;
+    background: rgba(0, 192, 222, .1);
+    border: 1px dotted rgba(0, 192, 222, .5);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+
+    .right-bottom {
+        bottom: 0 !important;
+        right: 0 !important;
+        cursor: nwse-resize !important;
+        width: 20px;
+        height: 20px;
+        .z-index;
+    }
+
+    .bottom {
+        bottom: 0 !important;
+        left: 0 !important;
+        width: calc(~"100% - 20px") !important;
+        cursor: ns-resize !important;
+        height: 20px;
+        .z-index;
+    }
+
+    .right {
+        top: 0 !important;
+        right: 0 !important;
+        height: calc(~"100% - 20px") !important;
+        cursor: ew-resize !important;
+        float: right;
+        width: 20px;
+        .z-index;
+    }
+
+    .move {
+        top: 0 !important;
+        left: 0 !important;
+        cursor: move !important;
+        width: calc(~"100% - 20px") !important;
+        height: calc(~"100% - 20px") !important;
+        float: left;
+        .z-index;
+    }
+
+    .navigator-line {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: static;
+        pointer-events: none;
+        box-sizing: content-box;
+
+        .navigator-line-left {
+            position: absolute;
+            border-top: 1px dashed #05ddff99;
+            height: 0;
+            top: 0;
+            transform: translateX(-100%);
+        }
+
+        .navigator-line-top {
+            position: absolute;
+            border-left: 1px dashed #05ddff99;
+            width: 0;
+            left: 0;
+            transform: translateY(-100%);
+        }
+
+        .navigator-line-account {
+            position: absolute;
+            transform: translate(-100%, -100%);
+            color: #05ddff99;
+            text-shadow: 1px 1px 1px #222;
+            white-space: nowrap;
+            font-size: 16px;
+            left: -8.21293px;
+            top: -8.21293px
+        }
+    }
+}

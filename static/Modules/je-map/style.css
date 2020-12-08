@@ -1,0 +1,42 @@
+.je-map-ui-splitscreen{
+	width:50%;
+	position:absolute;
+	top:0; right:0; bottom:0;
+	background:#fff;
+	border-left:1px solid #0085ef;
+	box-shadow: -1px 0px 3px #999;
+}
+.je-map-ui-splitscreen .bar{
+	position:absolute;
+	top:48%;
+	width:32px; height:32px; line-height:32px;
+	text-align:center;
+	border-radius:32px;
+	margin-left: -16px;
+	background:#0085ef;
+	color:#fff;
+	cursor:pointer;
+	z-index:5;
+}
+.je-map-ui-splitscreen .bar:hover{
+	background:#4664f5;	
+}
+.je-map-ui-splitscreen .bar i{
+	margin:0 4px;
+}
+.je-map-ui-splitscreen .split{
+	width:100%; height:100%;    
+	position: absolute;
+	overflow:hidden;
+}
+.je-map-ui-splitscreen .mapboxgl-map{
+	position:absolute;
+	top:0; right:0;
+}
+*{outline:none;}
+div:focus{outline:none;}
+
+/*  */
+.maptalks-control{display:none;}
+.mapboxgl-map{position:relative;}
+.geoglobe-element-container{ top:0; left:0;}

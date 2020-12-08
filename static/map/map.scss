@@ -1,0 +1,81 @@
+.infocon {
+    width: 455px;
+    height: 275px;
+    background: url('../../src/assets/map/detal_bg.png') no-repeat;
+    color: #fff;
+
+    .infotop {
+        width: 100%;
+        height: 40px;
+        line-height: 35px;
+        padding-left: 20px;
+        color: #409eff;
+    }
+
+    .close {
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        position: absolute;
+        top: 7px;
+        right: 15px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .infobot {
+        width: 100%;
+        height: 240px;
+        float: left;
+
+        .infoleft {
+            width: 260px;
+            height: 100%;
+            float: left;
+
+            .lcon {
+                width: 100%;
+                float: left;
+                margin-top: 6px;
+
+                .infol_l {
+                    width: 75px;
+                    height: 40px;
+                    float: left;
+                    text-align: right;
+                    line-height: 40px;
+                }
+
+                .infol_r {
+                    width: 100px;
+                    height: 40px;
+                    margin: 0px 10px;
+                    float: left;
+                    text-align: left;
+                    line-height: 40px;
+                }
+            }
+        }
+
+        .inforight {
+            width: 180px;
+            height: 100%;
+            float: left;
+            background: url('../../src/assets/map/defaultImg.png') no-repeat;
+            margin-right: 15px;
+            margin-top: 35px;
+        }
+    }
+
+    .arrow {
+        display: block;
+        width: 17px;
+        height: 10px;
+        background: url('../../src/assets/map/em.png') no-repeat;
+        position: absolute;
+        left: 50%;
+        margin-left: -5px;
+        bottom: -10px;
+    }
+}

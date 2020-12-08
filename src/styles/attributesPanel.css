@@ -1,0 +1,157 @@
+
+    .comName {
+        font-size: 14px;
+        padding-left: 20px;
+        padding-bottom: 5px;
+        color: #fff;        
+    }
+
+    .full-form > .ivu-form-item-content {
+        margin-left: 0 !important;
+    }
+
+    .ivu-tabs-nav {
+        width: 100% !important;
+    }
+
+    .ivu-tabs-nav .ivu-tabs-tab {
+        width: calc(100% / 3 - 16px);
+        text-align: center;
+        padding: 8px 16px !important;
+    }
+
+
+    .form {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .ivu-form-item {
+        margin-bottom: 12px !important;
+    }
+
+    .ivu-collapse-content {
+        overflow: unset !important;
+    }
+
+    .ivu-collapse-content > .ivu-collapse-content-box {
+        padding: 5px 0 !important;
+    }
+
+    .data-box .ivu-collapse-content {
+        padding: 5px 0 !important;
+    }
+
+    .collapse-title {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+    .no-tips {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        height: 35px;
+        line-height: 35px;
+        color:#fff;
+    }
+
+    .attr-panel-set {
+        width: 100%;
+        float: left;
+    }
+
+    .attr-table {
+        background-color: #464646;
+        float: left;
+        width: 100%;
+    }
+
+    .black {
+        background-color: #3b3b3b;
+    }
+
+    .attr-tr {
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .attr-tr .attr-ipt {
+        height: 25px;
+        width: calc(100% - 10px);
+        border: none;
+        background-color: #3b3b3b;
+        color: #fff;
+        padding-left: 10px;
+    }
+
+    .attr-data-box {
+        background-color: #464646;
+        padding: 5px 10px 5px 15px;
+        border-top: 1px solid #3b3b3b;
+        float: left;
+        width: 100%;
+    }
+
+    .attr-data-box .ivu-select-selection {
+        background-color: #333 !important;
+        color: #fff;
+        border: 1px solid rgba(255, 255, 255, .2);
+    }
+
+    .attr-data-box .ivu-select-dropdown {
+        background-color: #333 !important;
+    }
+
+    .attr-data-box .ivu-select-item {
+        color: #fff !important;
+    }
+
+    .attr-data-box .ivu-select-item:hover {
+        background-color: rgba(70, 70, 70, .5) !important;
+    }
+
+    .btn-box {
+        float: left;
+        width: 100%;
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    .enity::before {
+        content: '';
+        width: 10px;
+        height: 10px;
+        background-color: #00c1de;
+        display: inline-block;
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+
+    .enityRed::before {
+        content: '';
+        width: 10px;
+        height: 10px;
+        background-color: red;
+        display: inline-block;
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+    .scale-btn-list{
+        width:70px;
+        height: 30px;
+        float: left;
+        margin-left:5px;
+    }
+    .scale-btn-list .scale-icon{
+        float: left;
+        width:30px;
+        height: 30px;       
+        text-align: center;
+        line-height: 30px; 
+        cursor: pointer;
+        margin-left:5px;        
+    }    
+    .scale-btn-list .scale-icon:hover,.scale-btn-list .scale-icon.select{
+        border:1px solid #57a3f3;
+    }

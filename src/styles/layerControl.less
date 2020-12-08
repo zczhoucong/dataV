@@ -1,0 +1,116 @@
+@import './common.less';
+.layer-panel {
+    float: left;
+    width: 185px;
+    height: 100%;
+    background-color: rgba(34,48,84,.8);
+    position: relative;
+    .layer-title{
+        height: 35px;
+        line-height:35px;
+        width:100%;
+        text-align: center;
+        font-size:14px;
+        background-color: rgba(9,20,56,.6);
+        color:@fontcolor;
+    }
+}
+
+.layer-tools {
+    width: 100%;
+    height: 32px;
+    float: left;  
+    border-bottom: @split;
+    .ivu-btn-ghost.ivu-btn-text{
+        color:#fff;
+    }  
+    .ivu-btn-ghost.ivu-btn-text[disabled]{
+        color:#c5c8ce
+    }
+}
+
+.layer-tools .layer-tool {
+    padding: 2px 0 !important;
+    width: calc(~"25% - 2px");
+    float: left;
+}
+
+.layer-slt-box {
+    float: left;
+    width: 100%;
+    height: calc(~"100% - 99px");
+    overflow-x: hidden;
+}
+
+.layer-slt-box li {
+    width: 100%;
+    height: 50px;
+}
+
+.layer-slt-box li:hover{
+    background-color: rgba(0, 192, 222, .5);
+    cursor: pointer;
+}
+.layer-slt-box li.active {
+    background-color: rgba(0, 192, 222, .8);
+    cursor: pointer;
+    &:hover{
+        background-color: rgba(0, 192, 222, .5);
+        cursor: pointer;
+    }
+}
+
+.layer-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-color: @themecolor;
+    border-top: 1px solid #3261da;
+    .ivu-btn{
+        margin-left:40px;
+    }
+    .ivu-btn-ghost.ivu-btn-text[disabled]{
+        color:#c5c8ce
+    }
+}
+
+.layer-img {
+    float: left;
+    height: 34px;
+    width: 50px;
+    margin: 8px;
+    margin-left:15px;
+    border: @split;
+}
+
+.layer-text {
+    float: left;
+    height: 50px;
+    width: 100px;
+    line-height: 50px;
+    font-size: 12px;
+    color:@fontcolor;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.layer-check > .ivu-checkbox .ivu-checkbox-inner {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50%;
+}
+
+.layer-check > .ivu-checkbox-checked .ivu-checkbox-inner {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50%;
+}
+
+.layer-check > .ivu-checkbox-checked .ivu-checkbox-inner:after {
+    width: 8px !important;
+    height: 12px !important;
+    left: 5px !important;
+}
